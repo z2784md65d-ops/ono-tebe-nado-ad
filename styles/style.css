@@ -136,7 +136,7 @@
 
 .lots {
   max-width: 1052px;
-  margin: 160px auto 0;
+  margin: 180px auto 0;
 }
 
 .lots__heading {
@@ -249,7 +249,7 @@
 }
 
 .about__title {
-  margin: 100px 0 100px;
+  margin: 100px 0 80px;
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
