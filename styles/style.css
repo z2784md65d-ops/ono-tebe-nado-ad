@@ -136,7 +136,7 @@
 
 .lots {
   max-width: 1052px;
-  margin: 180px auto 0;
+  margin: 160px auto 0;
 }
 
 .lots__heading {
@@ -226,7 +226,7 @@
   grid-template-columns: 240px 1fr;
   gap: 72px;
   max-width: 1052px;
-  margin: 120px auto 0;
+  margin: 100px auto 0;
 }
 
 .about__logo {
@@ -245,7 +245,7 @@
 }
 
 .about__title {
-  margin: 100px 0 100px;
+  margin: 85px 0 115px;
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
