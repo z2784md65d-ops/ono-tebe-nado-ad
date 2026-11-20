@@ -156,7 +156,8 @@
 }
 
 .lots__card-list-item {
-  flex: 1;
+  display: flex;
+  flex: 1 1 0;
   min-width: 0;
 }
 
@@ -165,6 +166,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 100%;
   min-height: 563px;
   padding: 48px 40px;
   color: #fff;
@@ -215,18 +217,19 @@
 }
 
 .card-link {
-  display: block;
-  height: 100%;
+  display: flex;
+  flex: 1;
+  min-width: 0;
   color: inherit;
   text-decoration: none;
 }
 
 .about {
   display: grid;
-  grid-template-columns: 240px 1fr;
-  gap: 72px;
+  grid-template-columns: 334px 1fr;
+  column-gap: 25px;
   max-width: 1052px;
-  margin: 100px auto 0;
+  margin: 120px auto 0;
 }
 
 .about__logo {
@@ -237,6 +240,7 @@
   height: 240px;
   border-radius: 50%;
   background-color: #000;
+  margin: 0 auto;
 }
 
 .about__logo-image {
@@ -245,7 +249,7 @@
 }
 
 .about__title {
-  margin: 85px 0 115px;
+  margin: 100px 0 100px;
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
