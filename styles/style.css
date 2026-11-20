@@ -115,7 +115,7 @@
   font-size: 22px;
   line-height: 1.25;
   text-transform: uppercase;
-  word-spacing: 0.7em;
+  word-spacing: 0.5em;
 }
 
 .bet-button {
@@ -274,7 +274,7 @@
   gap: 40px;
   max-width: 1100px;
   margin: 180px auto 0;
-  padding-bottom: 82px;
+  padding: 0 50px 82px;
   font-size: 18px;
 }
 
