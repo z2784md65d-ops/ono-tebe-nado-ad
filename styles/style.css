@@ -167,7 +167,7 @@
   flex-direction: column;
   justify-content: space-between;
   width: 100%;
-  min-height: 563px;
+  min-height: 596px;
   padding: 48px 40px;
   color: #fff;
   background-position: center;
@@ -229,7 +229,7 @@
   grid-template-columns: 334px 1fr;
   column-gap: 25px;
   max-width: 1052px;
-  margin: 120px auto 0;
+  margin: 147px auto 0;
 }
 
 .about__logo {
@@ -240,7 +240,7 @@
   height: 240px;
   border-radius: 50%;
   background-color: #000;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .about__logo-image {
